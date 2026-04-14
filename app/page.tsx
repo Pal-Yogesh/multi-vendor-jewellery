@@ -16,7 +16,7 @@ export default function Home() {
         <ZaraHero />
         <ScrollEditorial />
         <MarqueeTicker />
-        <CategoryGrid />
+        {/* <CategoryGrid /> */}
         <HorizontalLookbook />
         <SplitEditorial />
         <Newsletter />

@@ -17,7 +17,7 @@ export default function Home() {
         <ScrollEditorial />
         <MarqueeTicker />
         {/* <CategoryGrid /> */}
-        <HorizontalLookbook />
+        {/* <HorizontalLookbook /> */}
         <SplitEditorial />
         <Newsletter />
       </main>

@@ -13,24 +13,22 @@ type Slide =
 const SLIDES: Slide[] = [
   {
     id: 1,
-    type: "video",
-    video: "https://videos.pexels.com/video-files/5585484/5585484-uhd_2560_1440_30fps.mp4",
-    poster: "https://images.pexels.com/photos/10983783/pexels-photo-10983783.jpeg?auto=compress&cs=tinysrgb&w=1920",
+    type: "image",
+    image: "https://images.unsplash.com/photo-1620656798579-1984d9e87df7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGpld2VsbGVyeXxlbnwwfHwwfHx8MA%3D%3D",
     label: "NEW COLLECTION",
     sub: "FINE JEWELLERY 2025",
   },
   {
     id: 2,
     type: "image",
-    image: "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8amV3ZWxsZXJ5fGVufDB8fDB8fHww",
+    image: "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=1920&q=80&auto=format&fit=crop",
     label: "NECKLACES",
     sub: "TIMELESS ELEGANCE",
   },
   {
     id: 3,
-    type: "video",
-    video: "https://videos.pexels.com/video-files/5585475/5585475-uhd_2560_1440_30fps.mp4",
-    poster: "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=1920",
+    type: "image",
+    image: "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=1920&q=80&auto=format&fit=crop",
     label: "RINGS",
     sub: "ARTISAN CRAFT",
   },
@@ -200,7 +198,7 @@ export default function ZaraHero() {
           {/* <span className="block w-7 h-px bg-white transition-all group-hover:w-5" />
           <span className="block w-5 h-px bg-white transition-all group-hover:w-7" /> */}
         </button>
-        <div className="flex flex-col items-end gap-1 text-white text-[11px] tracking-widest">
+        <div className="flex flex-col items-end gap-1 text-black text-[11px] tracking-widest">
           <button className="hover:opacity-60 transition-opacity">SEARCH</button>
           <button className="hover:opacity-60 transition-opacity">
             SHOPPING BAG [0]
